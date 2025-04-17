@@ -42,3 +42,29 @@ const myFunction = function() {
 
     // typeof Array is object
     // Function is function
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myinsta = "rohitrana183"
+let anotherinsta = myinsta
+ anotherinsta = "rohitranaa18"
+
+console.log(anotherinsta);
+console.log(myinsta);
+
+let userone ={
+    email: "Rana@google.com",
+    upi: "user@ibl"
+
+}
+
+let usertwo = userone
+
+usertwo.email = "rohit@google.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
