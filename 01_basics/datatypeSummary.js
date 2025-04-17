@@ -6,8 +6,39 @@
 
 // 7 types : String , Number , Boolean , null , undefined , Symbol , BigInt 
 
-// Non primitive(Reference type) : Call by reference
+// Javascript is a dynamically typed language.
 
+const score = 100
+const score1 = 100.3
+
+const isLoggedIn = false
+const temperature = null
+let userEmail;
+
+const id = Symbol('123')
+const id1 = Symbol('123')
+console.log(id == id1);
+
+const BigNumber = 9923537876853376389n  // for big Integer (Bigint).
+
+// Non primitive(Reference type) : Call by reference
 // Array , Objects , Functions
 
-// Javascript is a dynamically typed language.
+const heros = ["Batman", "Thor", "Joker"]  // Array
+
+let myDetail = {
+    name :"Rohit",        // Object
+    age : 20,
+}
+
+const myFunction = function() {
+    console.log("Hello World");
+    }
+
+    console.log(typeof BigNumber);
+    
+    // typeof null is undefined
+    // typeof decimal value is number
+
+    // typeof Array is object
+    // Function is function
