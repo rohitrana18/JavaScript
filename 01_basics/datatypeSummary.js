@@ -49,13 +49,17 @@ const myFunction = function() {
 
 // Stack (Primitive), Heap (Non-Primitive)
 
+//Stack
 let myinsta = "rohitrana183"
 let anotherinsta = myinsta
  anotherinsta = "rohitranaa18"
 
 console.log(anotherinsta);
 console.log(myinsta);
+// Provide copy of the original value so original value remains same even if we change original value.
 
+
+//Heap
 let userone ={
     email: "Rana@google.com",
     upi: "user@ibl"
@@ -67,4 +71,5 @@ let usertwo = userone
 usertwo.email = "rohit@google.com"
 console.log(userone.email);
 console.log(usertwo.email);
+// Provide reference of the original value so if we change the value original value will also be change .
 
