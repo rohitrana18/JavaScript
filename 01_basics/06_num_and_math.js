@@ -37,15 +37,3 @@ console.log((Math.random()*10)+1);
 const min = 8
 const max = 10
 console.log(Math.floor(Math.random()*(max - min +1))+min);
-
-
-
-
-
-
-
-
- 
- 
-
-
